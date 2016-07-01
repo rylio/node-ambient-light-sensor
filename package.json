@@ -1,0 +1,28 @@
+{
+    "name": "ambient-light-sensor",
+    "version": "0.0.1",
+    "description": "Access the ambient light sensor on macOS",
+    "main": "index.js",
+    "os": ["darwin"],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/otium/node-ambient-light-sensor.git"
+    },
+    "keywords": [
+        "ambient",
+        "light",
+        "sensor"
+    ],
+    "author": "otium",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/otium/node-ambient-light-sensor/issues"
+    },
+    "homepage": "https://github.com/otium/node-ambient-light-sensor#readme",
+    "dependencies": {
+        "nan": "^2.3.5"
+    }
+}
