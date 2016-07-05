@@ -11,7 +11,9 @@ Access the ambient light sensor on macOS in node.js.
 ```javascript
 const als = require('ambient-light-sensor');
 als(function(err, data) {
-   console.log(data.computedValue, data.rawValue);
+   if(!err) {
+      console.log(data.computedValue, data.rawValue);
+   }
 });
 ```
 
